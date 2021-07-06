@@ -1,0 +1,248 @@
+@media(max-width: 1199px) {
+    .second-section article {
+        padding: 0 10px;
+    }
+
+    .third-section article {
+        padding: 0 10px;
+    }
+
+    .fourth-section .text {
+        top: 210px;
+    }
+
+    .fifth-section .column3 {
+        width: 315px;
+    }
+}
+
+@media(max-width: 991px) {
+    .fourth-section .graphic {
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+    .fourth-section .graphic-designer {
+        font-size: 1.5rem;
+    }
+
+    .fourth-section .photo {
+        font-size: 1.5rem;
+    }
+
+    .fourth-section .photographer {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .third-section h2 {
+        width: 365px;
+        margin: 0;
+    }
+
+    .third-section p {
+        width: 350px;
+    }
+
+    .second-section p {
+        width: 375px;
+    }
+
+    .second-section h2 {
+        margin: 0;
+    }
+
+    .fourth-section .text {
+        top: 170px;
+    }
+
+    .clients {
+        margin-top: 100px;
+    }
+
+    .column3 p {
+        font-size: 1rem;
+        width: 250px;
+        line-height: 25px;
+    }
+}
+
+@media(max-width: 767px) {
+    .first-section {
+        height: 550px;
+    }
+
+    .main-header nav {
+        display: none;
+    }
+
+    .contact-btn {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .first-section {
+        height: 700px;
+    }
+
+    .third-section {
+        height: 229px;
+    }
+
+    .second-section h2 {
+        font-size: 1.85rem;
+        width: 100%;
+    }
+
+    .second-section article {
+        padding: 0 15px;
+    }
+
+    .third-section article {
+        padding: 0 15px;
+    }
+
+    .second-section {
+        height: 229px;
+    }
+
+    .second-section p {
+        font-size: 1rem;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .third-section h2 {
+        font-size: 1.85rem;
+        width: 100%;
+    }
+
+    .third-section p {
+        font-size: 1rem;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .fourth-section .text {
+        top: 130px;
+        width: 260px;
+    }
+
+    .fourth-section .graphic-designer {
+        font-size: 1rem;
+    }
+
+    .fourth-section .graphic {
+        font-size: 0.7rem;
+        line-height: 15px;
+    }
+
+    .fourth-section .photo {
+        font-size: 1rem;
+    }
+
+    .fourth-section .photographer {
+        font-size: 0.7rem;
+        line-height: 15px;
+    }
+    .fifth-section .row {
+        flex-wrap: wrap;
+    }
+
+    .fifth-section .column3 {
+        width: 100%;
+    }
+    .column3 p {
+        font-size: 1.2rem;
+        width: 540px;
+        margin: 0 auto;
+    }
+    .fifth-section .column3 img {
+        margin-bottom: 40px;
+        margin-top: 50px;
+    }
+    .column3 h4 {
+        margin-top: 40px;
+    }
+    .last-section {
+        margin-top: 70px;
+    }
+    .clients{
+        margin-top: 90px;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 565px) {
+    .first-section{
+        height: 600px;
+    }
+    .main-header{
+        padding: 40px;
+    }
+    .second-section {
+        height: 550px;
+    }
+    .third-section{
+        height: 550px;
+    }
+    .second-section .row{
+        flex-wrap: wrap;
+    }
+    .second-section .column{
+        width: 100%;
+    }
+    .second-section .column:nth-child(2){
+        order: -1;
+    }
+    .second-section .column{
+        width: 100%;
+    }
+    .third-section .row {
+        flex-wrap: wrap;
+    }
+    .third-section .column{
+        width: 100%;
+    }
+    .fourth-section .row{
+        flex-wrap: wrap;
+    }
+    .fourth-section .column{
+        width: 100%;
+    }
+    .fourth-section .text{
+        top: 220px;
+        width: 350px;
+    }
+    .fourth-section .graphic-designer {
+        font-size: 2rem;
+    }
+    .fourth-section .graphic{
+        line-height: 20px;
+        font-size: 1.2rem;
+    }
+    .fourth-section .photo {
+        font-size: 2rem;
+    }
+    .fourth-section .photographer {
+        line-height: 20px;
+        font-size: 1.2rem;
+    }
+    .column3 p{
+        width: 450px;
+    }
+    .fifth-section .column3{
+        margin-top: 20px;
+    }
+    .last-section .row{
+        flex-wrap: wrap;
+    }
+    .last-section .column4{
+        width: 50%;
+    }
+}
+
+@media(max-width: 480px) {}
