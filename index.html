@@ -12,18 +12,19 @@
 
 <body>
     <section class="first-section">
-        <header class="main-header">
+        <header id="mainHeader" class="main-header">
             <div class="row">
                 <div class="logo">
                     <a href="#"> <img src="img/logo.png" alt="logo"> </a>
                 </div>
-                <nav>
+                <button class="menu-toggle close" onclick="closeMenu()"><img src="img/close.svg" alt=""></button>
+                <button class="menu-toggle open" onclick="openMenu()"><img src="img/menu.svg" alt=""></button>
+                <nav id="mainnav" class="main-nav">
                     <a href="#">About</a>
                     <a href="#">Services</a>
                     <a href="#">Projects</a>
                     <a class="contact-btn" href="#">Contact</a>
                 </nav>
-                <a class="menu" href="#"> <img src="img/menu.svg" alt="menu"> </a>
             </div>
         </header>
         <div class="animation">
@@ -160,6 +161,23 @@
         </div>
     </footer>
 
+
+
+    <script>
+        const menu = document.getElementById('mainnav');
+        const header = document.getElementById('mainHeader');
+    
+
+        function openMenu() {
+            menu.style.display = 'block';
+            header.classList = 'main-header on';
+        }
+
+        function closeMenu() {
+            menu.style.display = 'none';
+            header.classList = 'main-header';
+        } 
+    </script>
 </body>
 
 </html>

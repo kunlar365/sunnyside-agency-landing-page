@@ -130,6 +130,10 @@ nav a:not(:last-child) {
     }
 }
 
+.menu-toggle {
+    display: none;
+}
+
 
 /* ****************************
       SECOND SECTION
